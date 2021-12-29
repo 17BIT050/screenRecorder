@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Screen Recorder</title>
+</head>
+<body>
+    <h1>Screen Recorder</h1>
+    <div id="record">
+        <button id ="start" onclick="recordScreen()">Start</button>
+        &nbsp;
+        &nbsp;
+        <button id ="stop" disabled>Stop</button>
+        <span><a id="download" style="display: none;"><button type="button"> Download</button></a></span>
+    </div>
+    <div class="vd">
+        <video autoplay height='480' width="640" muted ></video>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
